@@ -1,0 +1,5 @@
+[
+  { "nome": "Curso React", "descricao": "Aprenda a criar SPAs com React e Hooks" },
+  { "nome": "Curso Node.js", "descricao": "Crie APIs robustas com Express e banco de dados" },
+  { "nome": "Curso Firebase", "descricao": "Autenticação e dados em tempo real com Firebase" }
+]

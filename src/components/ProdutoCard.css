@@ -1,0 +1,31 @@
+.produto-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.produto-card h3 {
+  color: #0066cc;
+}
+
+.produto-card button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.produto-card button:hover {
+  background: #218838;
+}
+.produto-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

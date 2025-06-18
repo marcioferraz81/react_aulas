@@ -1,0 +1,85 @@
+.carrinho-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fdfdfd;
+}
+
+.carrinho-container h2 {
+  text-align: center;
+  color: #0066cc;
+  margin-bottom: 2rem;
+}
+
+.vazio {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #999;
+}
+
+.itens-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.item-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.item-card h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.item-card p {
+  font-weight: bold;
+  color: #444;
+}
+
+.resumo {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.botao-limpar {
+  background: #dc3545;
+  border: none;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.botao-limpar:hover {
+  background: #c82333;
+}
+
+.botao-excluir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #ff9800;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.botao-excluir:hover {
+  background: #e68900;
+}
