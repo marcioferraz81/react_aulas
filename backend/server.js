@@ -8,10 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'usbw', // substitua se tiver senha
-  database: 'backend', // coloque o nome correto do banco
+  host: 'sql10.freesqldatabase.com',
+  user: 'sql10786431',
+  password: 'jheuP1drv4', // substitua se tiver senha
+  database: 'sql10786431', // coloque o nome correto do banco
 });
 
 app.get('/api/usuarios', (req, res) => {

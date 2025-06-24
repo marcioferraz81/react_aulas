@@ -8,7 +8,7 @@ export default function ConsultaDB() {
 
   const buscar = async () => {
     try {
-      const resp = await fetch(`http://localhost:3001/api/usuarios?nome=${busca}`);
+      const resp = await fetch(`https://react-aulas-backend.onrender.com/api/usuarios?nome=${busca}`);
       const data = await resp.json();
       if (Array.isArray(data)) {
         setUsuarios(data);
